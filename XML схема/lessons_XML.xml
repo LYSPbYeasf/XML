@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Timetable">
+		<xs:complexType>
+			<xs:sequence>			
+				<xs:element name="Name" type="xs:string" />
+				<xs:element name="DateBegin" type="xs:string" />
+				<xs:element name="DateEnd" type="xs:string" />
+				<xs:element name="Lecturer" type="xs:string" />
+				<xs:element name="Hours" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>		
+</xs:schema>
