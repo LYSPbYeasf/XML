@@ -1,0 +1,52 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Timetable xmlns:xsi="lessons_XML.xml">
+	<Courses>
+		<Course id = "1">
+			<Name>Технологии программирования</Name>
+			<DateBegin>06.10.2021</DateBegin>
+			<DateEnd>19.11.2021</DateEnd>
+			<Lecturer>Смольянинов А.В.</Lecturer>
+			<Hours>40</Hours>
+		</Course>
+
+        <Course id = "2">
+			<Name>Введение в базы данных</Name>
+			<DateBegin>20.10.2021</DateBegin>
+			<DateEnd>28.10.2021</DateEnd>
+			<Lecturer>Осетрова И.С.</Lecturer>
+			<Hours>40</Hours>
+		</Course>
+
+		<Course id = "3">
+			<Name>Программирование на Microsoft C#</Name>
+			<DateBegin>11.11.2021</DateBegin>
+			<DateEnd>07.12.2021</DateEnd>
+			<Lecturer>Осипов Н.А.</Lecturer>
+			<Hours>50</Hours>
+		</Course>
+		
+		<Course id = "4">
+			<Name>Разработка Windows-приложений на C#</Name>
+			<DateBegin>09.12.2021</DateBegin>
+			<DateEnd>29.12.2021</DateEnd>
+			<Lecturer>Осипов Н.А.</Lecturer>
+			<Hours>50</Hours>
+		</Course>
+
+        <Course id = "5">
+			<Name>Transact-SQL и реализация БД Microsoft SQL Server</Name>
+			<DateBegin>11.01.2022</DateBegin>
+			<DateEnd>31.01.2022</DateEnd>
+			<Lecturer>Ямщиков Д.В.</Lecturer>
+			<Hours>60</Hours>
+		</Course>
+
+		<Course id = "6">
+			<Name>Основы технологий разметки(HTML, XML)</Name>
+			<DateBegin>03.02.2022</DateBegin>
+			<DateEnd>08.02.2022</DateEnd>
+			<Lecturer>Кузьмин К.М.</Lecturer>
+			<Hours>20</Hours>
+		</Course>		
+	</Courses>
+</Timetable>
