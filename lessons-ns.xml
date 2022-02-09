@@ -1,0 +1,54 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Timetable xmlns:myns = "http://www.itmo.ru/xml/lessons" xmlns:spns = "https://support.microsoft.com/ru-ru/office">
+	<myns:Courses>
+		<myns:Course id = "1">
+			<myns:Name>Технологии программирования</myns:Name>
+			<myns:DateBegin>06.10.2021</myns:DateBegin>
+			<myns:DateEnd>19.11.2021</myns:DateEnd>
+			<myns:Lecturer>Смольянинов А.В.</myns:Lecturer>
+			<myns:Hours>40</myns:Hours>
+		</myns:Course>
+
+        <myns:Course id = "2">
+			<myns:Name>Введение в базы данных</myns:Name>
+			<myns:DateBegin>20.10.2021</myns:DateBegin>
+			<myns:DateEnd>28.10.2021</myns:DateEnd>
+			<myns:Lecturer>Осетрова И.С.</myns:Lecturer>
+			<myns:Hours>40</myns:Hours>
+		</myns:Course>
+
+		<myns:Course id = "3">
+			<myns:Name>Программирование на Microsoft C#</myns:Name>
+			<myns:DateBegin>11.11.2021</myns:DateBegin>
+			<myns:DateEnd>07.12.2021</myns:DateEnd>
+			<myns:Lecturer>Осипов Н.А.</myns:Lecturer>
+			<myns:Hours>50</myns:Hours>
+		</myns:Course>
+		
+		<myns:Course id = "4">
+			<myns:Name>Разработка Windows-приложений на C#</myns:Name>
+			<myns:DateBegin>09.12.2021</myns:DateBegin>
+			<myns:DateEnd>29.12.2021</myns:DateEnd>
+			<myns:Lecturer>Осипов Н.А.</myns:Lecturer>
+			<myns:Hours>50</myns:Hours>
+		</myns:Course>
+    </myns:Courses>  
+
+    <spns:Courses>
+        <spns:Course id = "5">
+			<spns:Name>Transact-SQL и реализация БД Microsoft SQL Server</spns:Name>
+			<spns:DateBegin>11.01.2022</spns:DateBegin>
+			<spns:DateEnd>31.01.2022</spns:DateEnd>
+			<spns:Lecturer>Ямщиков Д.В.</spns:Lecturer>
+			<spns:Hours>60</spns:Hours>
+		</spns:Course>
+
+		<spns:Course id = "6">
+			<spns:Name>Основы технологий разметки(HTML, XML)</spns:Name>
+			<spns:DateBegin>03.02.2022</spns:DateBegin>
+			<spns:DateEnd>08.02.2022</spns:DateEnd>
+			<spns:Lecturer>Кузьмин К.М.</spns:Lecturer>
+			<spns:Hours>20</spns:Hours>
+		</spns:Course>		
+	</spns:Courses>
+</Timetable>
