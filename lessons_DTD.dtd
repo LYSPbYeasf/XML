@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Timetable (Courses+)>
+<!ELEMENT Courses (Course+)>
+<!ELEMENT Course (Name+, DateBegin+, DateEnd+, Lecturer+, Hours+)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT DateBegin (#PCDATA)>
+<!ELEMENT DateEnd (#PCDATA)>
+<!ELEMENT Lecturer (#PCDATA)>
+<!ELEMENT Hours (#PCDATA)>
+<!ATTLIST Course id CDATA #REQUIRED>
